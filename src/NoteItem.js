@@ -4,6 +4,8 @@ import { FaTrash } from "react-icons/fa";
 const NoteItem = ({ note, deleteNote }) => {
   const [expanded, setExpanded] = useState(false);
 
+
+  
   return (
     <div className="note">
       <h3 onClick={() => setExpanded(!expanded)}>{note.title}</h3>
