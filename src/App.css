@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  background: #0078d4;
+  color: white;
+  padding: 10px;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.note {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #0078d4;
+  position: relative;
+}
+
+h3 {
+  cursor: pointer;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quill-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.pencil-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #0078d4;
+}
+
+#toolbar {
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#toolbar button {
+  background: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+#toolbar .ql-pencil {
+  color: #0078d4;
+}
+
+.drawing-container {
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.drawing-container button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.draw-btn {
+  background: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
